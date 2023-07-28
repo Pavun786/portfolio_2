@@ -1,12 +1,12 @@
 .homepage{
     width:100%;
-    height:89vh;
+    height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
     background-color: #f5f6fa;
     color:#242d49;
-   
+    margin-bottom: 0px;
 }
 .homepage-content{
     width:100vw;

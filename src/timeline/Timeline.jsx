@@ -31,7 +31,7 @@ export const Timeline = () => {
 
   return (
 
-    <div className="section mainsection" style={{ background: darkMode ? 'rgb(23, 23, 23)' : '' }}>
+    <div className="section mainsection" id="timeline" style={{ background: darkMode ? 'rgb(23, 23, 23)' : '' }}>
       <h2 className="section__title" data-aos="fade-right" >
         <h2 style={{ color: darkMode ? 'white' : '' }}>About <span>Me</span></h2>
       </h2>
