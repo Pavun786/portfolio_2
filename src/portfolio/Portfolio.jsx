@@ -50,6 +50,20 @@ const Portfolio = () => {
 
         </div>
 
+        <div className="card" style={{ border: darkMode ? '1px solid grey' : '' }}>
+          <img src="assets/projects/Project3.png" alt="Project2 img" />
+          <h3 style={{ color: darkMode ? 'white' : '' }}>BuyCart Application</h3>
+          <p>React,Nodejs,Expressjs,MongoDB</p>
+          <p style={{ color: 'grey', textAlign: 'center', fontSize: '14px' }} className='proj-description'>The BuyCart application used to list items for purchase, facilitate a transaction by accepting payment methods, and initiate fulfillment of those purchases.</p>
+          <div className="sourcecode-icons">
+            <a href="https://github.com/Pavun786/Ecommerce_FrontEnd.git" target="_blank">< AiOutlineGithub style={{ fontSize: '30px' }} className='ai-icon' /></a>
+
+            <a href="https://ecommerce-front-end-opal.vercel.app/" target="_blank"><RiLiveLine style={{ fontSize: '30px' }} className='ai-icon' /></a>
+
+          </div>
+
+        </div>
+
       </div>
     </div>
   )
