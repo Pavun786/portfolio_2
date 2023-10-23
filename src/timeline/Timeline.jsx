@@ -36,10 +36,50 @@ export const Timeline = () => {
         <h2 style={{ color: darkMode ? 'white' : '' }}>About <span>Me</span></h2>
       </h2>
       <VerticalTimeline lineColor={darkMode ? 'white' : 'black'} >
+      <VerticalTimelineElement
 
+       date={"Aug2023 - Present"}
+     contentStyle={{
+      boxShadow: `var(--shadow)`,
+      border: "3px solid ",
+      borderStyle: darkMode ? 'white' : 'rgb(107, 20, 220)',
+      backgroundColor: darkMode ? 'black' : 'white',
+      textAlign: "center",
+      color: darkMode ? 'white' : 'black',
+   }}
+      contentArrowStyle={{
+        borderRight: "16px solid red",
+   }}
+      iconStyle={{
+       border: ` 3px solid `,
+       borderStyle: darkMode ? 'white' : 'rgb(107, 20, 220)',
+       backgroundColor: "",
+       color: "",
+   }}
+     icon={<WorkIcon/>}
+
+   >
+   <h3
+     className="vertical-timeline-element-title"
+     data-aos="fade-right"
+     style={{ color: 'rgb(107, 20, 220)' }}
+   >
+       Intern-Tech Support
+   </h3>
+   <h4
+     className="vertical-timeline-element-subtitle"
+     data-aos="fade-right"
+     style={{ color: darkMode ? 'white' : '' }}
+   >
+      GUVI GEEK NETWORKS PVT.LTD
+  </h4>
+   <p data-aos="fade-right" style={{ color: darkMode ? 'white' : '' }}>
+   My Role: Intern Tech-Support
+   </p>
+  </VerticalTimelineElement>
         <VerticalTimelineElement
 
-          date={"2023 - Present"}
+          date={"Oct2022 - Apr2023"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid ",
@@ -72,7 +112,7 @@ export const Timeline = () => {
             data-aos="fade-right"
             style={{ color: darkMode ? 'white' : '' }}
           >
-            GUVI IIT MADRAS
+           GUVI GEEK NETWORKS PVT.LTD
           </h4>
           <p data-aos="fade-right" style={{ color: darkMode ? 'white' : '' }}>
             Joined in Guvi to learn MERN Stack Development
@@ -94,9 +134,10 @@ export const Timeline = () => {
             borderRight: "16px solid red",
           }}
           iconStyle={{
-            border: ` 3px solid var(--clr-primary)`,
-            backgroundColor: `var(--clr-bg)`,
-            color: `var(--clr-primary)`,
+            border: ` 3px solid `,
+            borderStyle: darkMode ? 'white' : 'rgb(107, 20, 220)',
+            backgroundColor: "",
+            color:"",
           }}
           icon={<WorkIcon />}
         >
@@ -133,9 +174,10 @@ export const Timeline = () => {
             borderRight: "16px solid  red",
           }}
           iconStyle={{
-            border: ` 3px solid var(--clr-primary)`,
-            backgroundColor: `var(--clr-bg)`,
-            color: `var(--clr-primary)`,
+            border: ` 3px solid `,
+            borderStyle: darkMode ? 'white' : 'rgb(107, 20, 220)',
+            backgroundColor: "",
+            color:"",
           }}
           icon={<WorkIcon />}
         >
@@ -172,9 +214,10 @@ export const Timeline = () => {
             borderRight: "16px solid red",
           }}
           iconStyle={{
-            border: ` 3px solid var(--clr-primary)`,
-            backgroundColor: `var(--clr-bg)`,
-            color: `var(--clr-primary)`,
+            border: ` 3px solid `,
+            borderStyle: darkMode ? 'white' : 'rgb(107, 20, 220)',
+            backgroundColor: "",
+            color:"",
           }}
           icon={<SchoolIcon />}
         >
@@ -200,7 +243,7 @@ export const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"May 2013"}
+          date={"Jun 2012 - May 2013"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid ",
@@ -213,9 +256,10 @@ export const Timeline = () => {
             borderRight: "16px solid red",
           }}
           iconStyle={{
-            border: ` 3px solid var(--clr-primary)`,
-            backgroundColor: `var(--clr-bg)`,
-            color: `var(--clr-primary)`,
+            border: ` 3px solid `,
+            borderStyle: darkMode ? 'white' : 'rgb(107, 20, 220)',
+            backgroundColor: "",
+            color:"",
           }}
           icon={<SchoolIcon />}
         >
@@ -237,13 +281,53 @@ export const Timeline = () => {
             Studied & Passed with 78 Percentage.
           </p>
         </VerticalTimelineElement>
-
+         <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date={"Jun 2010 - May 2011"}
+          contentStyle={{
+            boxShadow: `var(--shadow)`,
+            border: "3px solid ",
+            borderStyle: darkMode ? 'white' : 'rgb(107, 20, 220)',
+            backgroundColor: darkMode ? 'black' : 'white',
+            textAlign: "center",
+            color: darkMode ? 'white' : 'black',
+          }}
+          contentArrowStyle={{
+            borderRight: "16px solid red",
+          }}
+          iconStyle={{
+            border: ` 3px solid `,
+            borderStyle: darkMode ? 'white' : 'rgb(107, 20, 220)',
+            backgroundColor: "",
+            color:"",
+          }}
+          icon={<SchoolIcon />}
+        >
+          <h3
+            className="vertical-timeline-element-title"
+            data-aos="fade-right"
+            style={{ color: 'rgb(107, 20, 220)' }}
+          >
+            Student [SSLC]
+          </h3>
+          <h4
+            className="vertical-timeline-element-subtitle"
+            data-aos="fade-right"
+            style={{ color: darkMode ? 'white' : '' }}
+          >
+            A.S.Murugaiyan model higher secondary school
+          </h4>
+          <p data-aos="fade-right" style={{ color: darkMode ? 'white' : '' }}>
+            Studied & Passed with 87 Percentage.
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           icon={<StarRateIcon />}
           iconStyle={{
-            border: ` 3px solid var(--clr-primary)`,
-            backgroundColor: `var(--clr-bg)`,
-            color: `var(--clr-primary)`,
+            border: ` 3px solid `,
+            borderStyle: darkMode ? 'white' : 'rgb(107, 20, 220)',
+            backgroundColor: "",
+            color:"",
           }}
         ></VerticalTimelineElement>
       </VerticalTimeline>

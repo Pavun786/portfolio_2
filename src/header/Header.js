@@ -23,7 +23,7 @@ const Header = () => {
 
       <nav>
         <div class="logo">
-          <a href="" style={{ color: darkMode ? 'white' : '' }}>Pavunkumar</a>
+          <a href="" style={{ color: darkMode ? 'white' : '' }}>Pavunkumar_E</a>
 
         </div>
 

@@ -52,7 +52,7 @@ const Portfolio = () => {
 
         <div className="card" style={{ border: darkMode ? '1px solid grey' : '' }}>
           <img src="assets/projects/Project3.png" alt="Project3 img" />
-          <h3 style={{ color: darkMode ? 'white' : '' }}>BuyCart Application</h3>
+          <h3 style={{ color: darkMode ? 'white' : '' }}>Ecommerce Application</h3>
           <p>React,Nodejs,Expressjs,MongoDB</p>
           <p style={{ color: 'grey', textAlign: 'center', fontSize: '14px' }} className='proj-description'>The BuyCart application used to list items for purchase, facilitate a transaction by accepting payment methods, and initiate fulfillment of those purchases.</p>
           <div className="sourcecode-icons">
