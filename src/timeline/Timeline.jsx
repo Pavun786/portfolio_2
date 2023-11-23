@@ -38,7 +38,7 @@ export const Timeline = () => {
       <VerticalTimeline lineColor={darkMode ? 'white' : 'black'} >
       <VerticalTimelineElement
 
-       date={"Aug2023 - Present"}
+       date={"Aug2023 - Nov2023"}
      contentStyle={{
       boxShadow: `var(--shadow)`,
       border: "3px solid ",
@@ -64,7 +64,7 @@ export const Timeline = () => {
      data-aos="fade-right"
      style={{ color: 'rgb(107, 20, 220)' }}
    >
-       Intern-Tech Support
+       Intern
    </h3>
    <h4
      className="vertical-timeline-element-subtitle"
@@ -74,7 +74,7 @@ export const Timeline = () => {
       GUVI GEEK NETWORKS PVT.LTD
   </h4>
    <p data-aos="fade-right" style={{ color: darkMode ? 'white' : '' }}>
-   My Role: Intern Tech-Support
+   My Role: Tech-Support
    </p>
   </VerticalTimelineElement>
         <VerticalTimelineElement
